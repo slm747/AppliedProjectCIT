@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" type="text/css">
+    <title>FAQ</title>
+</head>
+<body>
+    
+    <h5>FAQ</h5>
+
+    <ul class="faq">
+        <li>
+            How do I sign up for a discounted EduMatch subscription through my college or university?
+        </li>
+            <p>
+                    If you are a current student or alumni of one of our affiliated institutions, please click here to begin the sign-up process. Unfortunately, at this time student discounts are only offered to the students/alumni of higher learning institutions directly linked to EduMatch.
+            </p>
+    
+        <li>
+            I can’t afford EduMatch. How can I see if I am eligible for free access? 
+        </li>
+                <p>
+                    Please enter your contact information here, and our eligibility specialists will reach out to you shortly. 
+                </p>
+    
+        <li>
+            What is the standard cost of an EduMatch subscription?
+        </li>
+                <p>
+                    The standard EduMatch subscription is $39.99 + taxes per month. 
+                </p>
+    
+        <li>
+            I am unsatified with my tutoring session. How do I get in contact with EduMatch. 
+        </li>
+                <p>
+                    EduMatch is available to take your call 24/7 at (123) 456-7890. You can also reach us by email at <a href="#"> support@edumatch.edu, </a> or by chat 9am – 5pm (CST).
+                </p>
+    
+        <li>
+            Can I get a refund for my first tutoring session, if I am unhappy with the service I received? 
+        </li>
+                <p>
+                    Yes. If you are unsatisfied with your first session, please reach out to support with 14 business days of the initial session. 
+                </p>
+    
+        <li>
+            Do your tutors and educators undergo background checks?
+        </li>
+                <p>
+                    Safety is our number one concern at EduMatch. Our tutors undergo extensive background checks, drug testing and additional vetting to ensure that they are the most qualified.
+                </p>
+    </ul>
+
+    <button class="click-button" onclick="showChat()">Contact Support</button>
+
+    <div class="chat-option" id="chatRequest">
+        <form class="formDeet">
+            <h3>Click to Chat</h3>
+
+            <label for="chat">Chat Menu</label>
+            <textarea name="chat" id="chat" required placeholder="Hi! How can I help?"></textarea>
+
+            <button type="submit" class="sub-button">SEND</button>
+            <button type="button" class="end-button" onclick="closeButton()">CLOSE</button>
+        </form>
+
+    </div>
+
+    <script src="./index.js" type="text/javascript"></script>
+</body>
+</html>

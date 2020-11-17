@@ -1,0 +1,174 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+}
+
+header {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 23px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+}
+
+.content {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+h3 {
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.element {
+  padding: 0 20px;
+}
+
+.a > li {
+  padding: 5px 0;
+}
+
+#bottom {
+  margin: 30px 0 20px 0;
+}
+
+.b > li {
+  padding: 20px 0;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.faq li {
+  font-size: 25px;
+  padding: 20px 15px;
+  color: brown;
+}
+
+.faq > p {
+  padding: 0 25px;
+}
+
+form {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+label {
+  font-size: 23px;
+}
+
+input {
+  width: 80%;
+  height: 30px;
+}
+
+button {
+  font-size: 25px;
+  width: 20%;
+  height: 50px;
+  border-radius: 10px;
+  background-color: lightblue;
+}
+
+.social {
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 10px 2px 5px 2px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.fa-facebook {
+  background-color: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background-color:  #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background-color: #125688;
+  color: white;
+}
+
+.click-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 280px;
+}
+
+.formDeet {
+  padding: 5px;
+}
+
+.chat-option {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  display: none;
+  z-index: 9;
+  border: 5px solid gray;
+  background-color: white;
+}
+
+textarea {
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background-color: white;
+  min-height: 220px;
+  width: 100%;
+}
+
+textarea:focus {
+  outline: none;
+  background-color: gray;
+}
+
+.sub-button, .end-button {
+  width: 90%;
+  background-color: green;
+  padding: 18px 22px;
+  cursor: pointer;
+  border: none;
+}
+
+.end-button {
+  background-color: red;
+  margin-top: 10px;
+}
+
+
+footer {
+  text-align: center;
+  padding-top: 20px;
+}
